@@ -31,7 +31,7 @@ The DE-50Hz system is the 380 and 220 kV transmission network in the north-easte
 ## The transmission network of Liaoning province in China (LN)
 
 
-The LN network is the 220kV and 550kV transmission network in Liaoning province in China. The system data and time-series scenarios are taken from 2016. It contains 772 buses, 970 lines (954 220kV and 500kV transmission lines), 143 two-phase transformers, 62 three-phase transformers, 118 conventional generators and 38 wind farms. Notes that some lower-voltage buses are considered to model loads and generators. Data of the system can be found [here](./case-ln). An interactive diagram of the network is given [here](./case-ln.html).
+The LN network is the 220kV and 550kV transmission network in Liaoning province in China. The system data and time-series scenarios are taken from 2016. It contains 772 buses, 970 lines (954 220kV and 500kV transmission lines), 143 two-phase transformers, 62 three-phase transformers, 118 conventional generators and 38 wind farms. Notes that some lower-voltage buses are considered to model loads and generators. Data of the system can be found [here](./case-ln). An interactive diagram of the network is given [here](https://htmlpreview.github.io/?https://github.com/thanever/SOC/blob/master/Uncertainty/data/case-ln.html).
 
  
 <p align="center">
