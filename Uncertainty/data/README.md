@@ -40,7 +40,7 @@ The LN network is the 220kV and 550kV transmission network in Liaoning province 
 
 |File                                                 |Content |
 |-----                                                |--------|
-|[case_ln_75.py](./case_ln/case_ln_75.py)|Data for the LN system under the 1-th time-series scenario. Please see [caseformat.py](./caseformat.py) for details on the case file format. | 
-|[case_ln_76.py](./case_ln/case_ln_76.py)|Data for the LN system under the 2-th time-series scenario. Please see [caseformat.py](./caseformat.py) for details on the case file format. | 
+|[case_ln_75.py](./case-ln/case_ln_75.py)|Data for the LN system under the 1-th time-series scenario. Please see [caseformat.py](./caseformat.py) for details on the case file format. | 
+|[case_ln_76.py](./case-ln/case_ln_76.py)|Data for the LN system under the 2-th time-series scenario. Please see [caseformat.py](./caseformat.py) for details on the case file format. | 
 |......|...... | 
 
