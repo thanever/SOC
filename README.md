@@ -1,2 +1,2 @@
 # SOC
- Structure-oriented optimization & control
+ Structure-oriented optimization and control
