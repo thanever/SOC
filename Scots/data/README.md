@@ -10,3 +10,6 @@ Four transmission networks are used for the case study, i.e., the IEEE 14-bus sy
   <img alt="IEEE 14-bus system" title="IEEE 14-bus system" src="case14.png" width = "400" height = "400"/><img alt="IEEE 30-bus system" title="IEEE 30-bus system" src="case30.png" width = "400" height = "400" /> 
   <img alt="IEEE 57-bus system" title="IEEE 57-bus system" src="case57.png" width = "400" height = "400" /><img alt="The 50Hertz control area of the German transmission network" title="The 50Hertz control area of the German transmission network" src="case_de.png" width = "400" height = "400" /> 
 </p>
+
+
+<img src="http://latex.codecogs.com/gif.latex?\boldsymbol{x}" />
