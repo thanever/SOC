@@ -9,6 +9,7 @@ Four transmission networks are used for the case study, i.e., the IEEE 14-bus sy
   <img alt="IEEE 57-bus system" title="IEEE 57-bus system" src="case57.png" width = "400" height = "400" /><img alt="The 50Hertz control area of the German transmission network" title="The 50Hertz control area of the German transmission network" src="case_de.png" width = "400" height = "400" /> 
 </p>
 
+<<<<<<< HEAD
 ## Example of SCOTS formulation using the DC power flow model
 
 The two-stage DR formulation of SCOTS can be written as 
@@ -62,4 +63,5 @@ Notations used in the above formulation are listed in the following table (bold 
  
 
 [1] C. Coffrin, B. Knueven, J. Holzer, and M. Vuffray, “The impacts of convex piecewise linear cost formulations on AC optimal power flow,” Electric Power Systems Research, vol. 199, p. 107191, Oct. 2021.
+
 
