@@ -16,7 +16,7 @@ The two-stage DR formulation of SCOTS can be written as
 <p align="center">
   <img src="eq-1.png" width=45%/> 
 </p>
-where ![]http://latex.codecogs.com/gif.latex?\boldsymbol{x}=[\boldsymbol{p}_{\rm{g_+}}^T,\boldsymbol{p}_{\rm{g_-}}^T,\boldsymbol{p}_{\rm{d}_{\Delta}}^T,\boldsymbol{z}_{+}^T,\boldsymbol{z}_{-}^T]^T), and the first and second stages are the dispatch problem under the normal state and corrective control problem after a contingency, respectively. The first-stage objective function <img src="http://latex.codecogs.com/gif.latex?f(x)"> is the total generation cost, which is linearized using the ``<img src="http://latex.codecogs.com/gif.latex?\lambda">'' approximation in [1]. The second-stage objective function <img src="http://latex.codecogs.com/gif.latex?g(x)"> is the total cost of generator regulation, load shedding and corrective line switching, given by
+where <img src="http://latex.codecogs.com/gif.latex?\boldsymbol{x}=[\boldsymbol{p}_{\rm{g_+}}^T,\boldsymbol{p}_{\rm{g_-}}^T,\boldsymbol{p}_{\rm{d}_{\Delta}}^T,\boldsymbol{z}_{+}^T,\boldsymbol{z}_{-}^T]^T">, and the first and second stages are the dispatch problem under the normal state and corrective control problem after a contingency, respectively. The first-stage objective function <img src="http://latex.codecogs.com/gif.latex?f(x)"> is the total generation cost, which is linearized using the ``<img src="http://latex.codecogs.com/gif.latex?\lambda">'' approximation in [1]. The second-stage objective function <img src="http://latex.codecogs.com/gif.latex?g(x)"> is the total cost of generator regulation, load shedding and corrective line switching, given by
 <p align="center">
   <img src="eq-2.png" width=45%/> 
 </p>
