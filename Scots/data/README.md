@@ -16,7 +16,8 @@ The two-stage DR formulation of SCOTS can be written as
 <p align="center">
   <img src="eq-1.png" width=45%/> 
 </p>
-where <img src="http://latex.codecogs.com/gif.latex?\boldsymbol{x}=[\boldsymbol{p}_{\rm{g_+}}^T,\boldsymbol{p}_{\rm{g_-}}^T,\boldsymbol{p}_{\rm{d}_{\Delta}}^T,\boldsymbol{z}_{+}^T,\boldsymbol{z}_{-}^T]^T">, and the first and second stages are the dispatch problem under the normal state and corrective control problem after a contingency, respectively. The first-stage objective function <img src="http://latex.codecogs.com/gif.latex?f(x)"> is the total generation cost, which is linearized using the ``<img src="http://latex.codecogs.com/gif.latex?\lambda">'' approximation in [1]. The second-stage objective function <img src="http://latex.codecogs.com/gif.latex?g(x)"> is the total cost of generator regulation, load shedding and corrective line switching, given by
+where <img src="http://latex.codecogs.com/gif.latex?\boldsymbol{x}=[\boldsymbol{p}_{\rm{g_+}}^T,\boldsymbol{p}_{\rm{g_-}}^T,\boldsymbol{p}_{\rm{d}_{\Delta}}^T,\boldsymbol{z}_{+}^T,\boldsymbol{z}_{-}^T]^T">
+and the first and second stages are the dispatch problem under the normal state and corrective control problem after a contingency, respectively. The first-stage objective function *f(x)* is the total generation cost, which is linearized using the *&lambda* approximation in [1]. The second-stage objective function *g(x)* is the total cost of generator regulation, load shedding and corrective line switching, given by
 <p align="center">
   <img src="eq-2.png" width=45%/> 
 </p>
@@ -29,13 +30,13 @@ The second-stage feasible region
 <p align="center">
   <img src="eq-4.png" width=45%/> 
 </p>
-which is defined by the constraints analogous to those in <img src="http://latex.codecogs.com/gif.latex?\mathcal{X}"> but for the post-control system, bound constraints for regulation of generators and load shedding, constraints for switching actions, and constraints connecting topology, switching actions and branch contingencies. 
+which is defined by the constraints analogous to those associated with the first-stage feasible region but for the post-control system, bound constraints for regulation of generators and load shedding, constraints for switching actions, and constraints connecting topology, switching actions and branch contingencies. 
 
 Notations used in the above formulation are listed in the following table (bold lowercase letters are all vectors with proper dimension):
 |   |   |
 |---|---|
 |<img src="http://latex.codecogs.com/gif.latex?M">| Big-M constant.
-|<img src="http://latex.codecogs.com/gif.latex?n_{\rm n}, n_{\rm g}, n_{\rm b}">| Numbers of buses, generators, and branches.
+|<img src="http://latex.codecogs.com/gif.latex?n_{\rm{n}}, n_{\rm{g}}, n_{\rm{b}}">| Numbers of buses, generators, and branches.
 |<img src="http://latex.codecogs.com/gif.latex?\boldsymbol{p}_{\rm g}, \bar{\boldsymbol{p}}_{\rm g}">| Active power outputs of generators and the counterpart of <img src="http://latex.codecogs.com/gif.latex?\boldsymbol{p}_{\rm g}"> for the post-control system.
 |<img src="http://latex.codecogs.com/gif.latex?\boldsymbol{p}_{\rm d}, \bar{\boldsymbol{p}}_{\rm d}">| Active load powers and the counterpart of <img src="http://latex.codecogs.com/gif.latex?\boldsymbol{p}_{\rm d}"> for the post-control system.
 |<img src="http://latex.codecogs.com/gif.latex?\boldsymbol{p}_{\rm b}, \bar{\boldsymbol{p}}_{\rm b}">| Active powers of branches and the counterpart of <img src="http://latex.codecogs.com/gif.latex?\boldsymbol{p}_{\rm b}"> for the post-control system.
