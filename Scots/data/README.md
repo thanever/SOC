@@ -9,7 +9,6 @@ Four transmission networks are used for the case study, i.e., the IEEE 14-bus sy
   <img alt="IEEE 57-bus system" title="IEEE 57-bus system" src="case57.png" width = "400" height = "400" /><img alt="The 50Hertz control area of the German transmission network" title="The 50Hertz control area of the German transmission network" src="case_de.png" width = "400" height = "400" /> 
 </p>
 
-<<<<<<< HEAD
 ## Example of SCOTS formulation using the DC power flow model
 
 The two-stage DR formulation of SCOTS can be written as 
@@ -45,7 +44,7 @@ Notations used in the above formulation are listed in the following table (bold 
 |<img src="http://latex.codecogs.com/gif.latex?\boldsymbol{p}_{\rm{g}}^{\rm{max}}">| Maximum active power outputs of generators. 
 |<img src="http://latex.codecogs.com/gif.latex?\boldsymbol{\theta}_{\rm{max}}">| Maximum phase angle difference of branches.
 |<img src="http://latex.codecogs.com/gif.latex?\boldsymbol{p}_{\rm{b}}^{\rm{max}}">| Power capacity of branches.
-|<img src="http://latex.codecogs.com/gif.latex?\boldsymbol{p}_{{\rm{g}}_+}, \boldsymbol{p}_{\rm{g}_-}">| Upward/downward regulations of active power outputs of generators. 
+|<img src="http://latex.codecogs.com/gif.latex?\boldsymbol{p}_{\rm{g}_+}, \boldsymbol{p}_{\rm{g}_-}">| Upward/downward regulations of active power outputs of generators. 
 |<img src="http://latex.codecogs.com/gif.latex?{\boldsymbol{r}}_{\rm{g}_+}, {\boldsymbol{r}}_{\rm{g}_-}">| Upward/downward ramp rate of generators.
 |<img src="http://latex.codecogs.com/gif.latex?\boldsymbol{p}_{\rm{d}_{\Delta}}, \boldsymbol{p}_{\rm{d}_{\Delta}}^{\rm{max}}">| Amount of load shedding and its upper bound.
 |<img src="http://latex.codecogs.com/gif.latex?\boldsymbol{z}_{+}, \boldsymbol{z}_{-}">| Action signs of switching on/off branches. An entry value of 1/0 means a/no switching action performed.
