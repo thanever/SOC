@@ -17,7 +17,7 @@ The two-stage DR formulation of SCOTS can be written as
   <img src="eq-1.png" width=45%/> 
 </p>
 where <img src="http://latex.codecogs.com/gif.latex?\boldsymbol{x}=[\boldsymbol{p}_{\rm{g_+}}^T,\boldsymbol{p}_{\rm{g_-}}^T,\boldsymbol{p}_{\rm{d}_{\Delta}}^T,\boldsymbol{z}_{+}^T,\boldsymbol{z}_{-}^T]^T">
-and the first and second stages are the dispatch problem under the normal state and corrective control problem after a contingency, respectively. The first-stage objective function *f(x)* is the total generation cost, which is linearized using the *&lambda* approximation in [1]. The second-stage objective function *g(x)* is the total cost of generator regulation, load shedding and corrective line switching, given by
+and the first and second stages are the dispatch problem under the normal state and corrective control problem after a contingency, respectively. The first-stage objective function f(x) is the total generation cost, which is linearized using the "lambda" approximation in [1]. The second-stage objective function g(x) is the total cost of generator regulation, load shedding and corrective line switching, given by
 <p align="center">
   <img src="eq-2.png" width=45%/> 
 </p>
@@ -37,23 +37,23 @@ Notations used in the above formulation are listed in the following table (bold 
 |---|---|
 |<img src="http://latex.codecogs.com/gif.latex?M">| Big-M constant.
 |<img src="http://latex.codecogs.com/gif.latex?n_{\rm{n}}, n_{\rm{g}}, n_{\rm{b}}">| Numbers of buses, generators, and branches.
-|<img src="http://latex.codecogs.com/gif.latex?\boldsymbol{p}_{\rm g}, \bar{\boldsymbol{p}}_{\rm g}">| Active power outputs of generators and the counterpart of <img src="http://latex.codecogs.com/gif.latex?\boldsymbol{p}_{\rm g}"> for the post-control system.
-|<img src="http://latex.codecogs.com/gif.latex?\boldsymbol{p}_{\rm d}, \bar{\boldsymbol{p}}_{\rm d}">| Active load powers and the counterpart of <img src="http://latex.codecogs.com/gif.latex?\boldsymbol{p}_{\rm d}"> for the post-control system.
-|<img src="http://latex.codecogs.com/gif.latex?\boldsymbol{p}_{\rm b}, \bar{\boldsymbol{p}}_{\rm b}">| Active powers of branches and the counterpart of <img src="http://latex.codecogs.com/gif.latex?\boldsymbol{p}_{\rm b}"> for the post-control system.
+|<img src="http://latex.codecogs.com/gif.latex?\boldsymbol{p}_{\rm{g}}, \bar{\boldsymbol{p}}_{\rm{g}}">| Active power outputs of generators and the counterpart of <img src="http://latex.codecogs.com/gif.latex?\boldsymbol{p}_{\rm g}"> for the post-control system.
+|<img src="http://latex.codecogs.com/gif.latex?\boldsymbol{p}_{\rm{d}}, \bar{\boldsymbol{p}}_{\rm{d}}">| Active load powers and the counterpart of <img src="http://latex.codecogs.com/gif.latex?\boldsymbol{p}_{\rm{d}}"> for the post-control system.
+|<img src="http://latex.codecogs.com/gif.latex?\boldsymbol{p}_{\rm{b}}, \bar{\boldsymbol{p}}_{\rm{b}}">| Active powers of branches and the counterpart of <img src="http://latex.codecogs.com/gif.latex?\boldsymbol{p}_{\rm{b}}"> for the post-control system.
 |<img src="http://latex.codecogs.com/gif.latex?\boldsymbol{\theta}, \bar{\boldsymbol{\theta}}">| Voltage phase angles of buses and the counterpart of <img src="http://latex.codecogs.com/gif.latex?\boldsymbol{\theta}"> for the post-control system.
 |<img src="http://latex.codecogs.com/gif.latex?\boldsymbol{z}, \bar{\boldsymbol{z}}">| Statuses of branches where entry values of 1/0 denote the associated branches are switched on/off, counterpart of <img src="http://latex.codecogs.com/gif.latex?\boldsymbol{z}"> for the post-control topology.
-|<img src="http://latex.codecogs.com/gif.latex?\boldsymbol{p}_{\rm g}^{\rm{max}}">| Maximum active power outputs of generators. 
-|<img src="http://latex.codecogs.com/gif.latex?\boldsymbol{\theta}_{\rm max}">| Maximum phase angle difference of branches.
+|<img src="http://latex.codecogs.com/gif.latex?\boldsymbol{p}_{\rm{g}}^{\rm{max}}">| Maximum active power outputs of generators. 
+|<img src="http://latex.codecogs.com/gif.latex?\boldsymbol{\theta}_{\rm{max}}">| Maximum phase angle difference of branches.
 |<img src="http://latex.codecogs.com/gif.latex?\boldsymbol{p}_{\rm b}^{\rm{max}}">| Power capacity of branches.
 |<img src="http://latex.codecogs.com/gif.latex?\boldsymbol{p}_{{\rm g}_+}, \boldsymbol{p}_{\rm{g}_-}">| Upward/downward regulations of active power outputs of generators. 
-|<img src="http://latex.codecogs.com/gif.latex?{\boldsymbol{r}}_{\rm{g}_+}, {\boldsymbol{r}}_{\rm g_-}">| Upward/downward ramp rate of generators.
-|<img src="http://latex.codecogs.com/gif.latex?\boldsymbol{p}_{\rm d_{\Delta}}, \boldsymbol{p}_{\rm d_{\Delta}}^{\rm max}">| Amount of load shedding and its upper bound.
+|<img src="http://latex.codecogs.com/gif.latex?{\boldsymbol{r}}_{\rm{g}_+}, {\boldsymbol{r}}_{\rm{g}_-}">| Upward/downward ramp rate of generators.
+|<img src="http://latex.codecogs.com/gif.latex?\boldsymbol{p}_{\rm{d}_{\Delta}}, \boldsymbol{p}_{\rm{d}_{\Delta}}^{\rm{max}}">| Amount of load shedding and its upper bound.
 |<img src="http://latex.codecogs.com/gif.latex?\boldsymbol{z}_{+}, \boldsymbol{z}_{-}">| Action signs of switching on/off branches. An entry value of 1/0 means a/no switching action performed.
 |<img src="http://latex.codecogs.com/gif.latex?\boldsymbol{o}">| Parameterization of N-k contingencies. Entry values of 1/0 indicate the normal/failure state of components.
-|<img src="http://latex.codecogs.com/gif.latex?\boldsymbol{o}_{\rm g}, \boldsymbol{o}_{\rm b}">| Sub-vectors of <img src="http://latex.codecogs.com/gif.latex?\boldsymbol{o}"> for generators and branches.
+|<img src="http://latex.codecogs.com/gif.latex?\boldsymbol{o}_{\rm{g}}, \boldsymbol{o}_{\rm{b}}">| Sub-vectors of <img src="http://latex.codecogs.com/gif.latex?\boldsymbol{o}"> for generators and branches.
 |<img src="http://latex.codecogs.com/gif.latex?\mathcal{X}, \mathcal{Z}(\cdot)">| Feasible region of the first/second-stage problem.
-|<img src="http://latex.codecogs.com/gif.latex?\boldsymbol{E}_{\rm g}">| Incidence matrix between buses and generators.
-|<img src="http://latex.codecogs.com/gif.latex?\boldsymbol{E}_{\rm d}">| Incidence matrix between buses and loads.
+|<img src="http://latex.codecogs.com/gif.latex?\boldsymbol{E}_{\rm{g}}">| Incidence matrix between buses and generators.
+|<img src="http://latex.codecogs.com/gif.latex?\boldsymbol{E}_{\rm{d}}">| Incidence matrix between buses and loads.
 |<img src="http://latex.codecogs.com/gif.latex?\boldsymbol{E}">| Oriented incidence matrix of the underlying graph of the transmission network with each branch assigned arbitrary and fixed orientation.
 |<img src="http://latex.codecogs.com/gif.latex?\boldsymbol{B}">| Diagonal matrix formed by susceptance of each branch
 |<img src="http://latex.codecogs.com/gif.latex?f(\cdot), g(\cdot)">| The first-stage and second-stage functions.
