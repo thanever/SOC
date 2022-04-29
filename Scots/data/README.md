@@ -54,13 +54,15 @@ Notations used in the above formulation are listed in the following table (bold 
 |<img src="http://latex.codecogs.com/gif.latex?\boldsymbol{E}_{\rm{g}}">| Incidence matrix between buses and generators.
 |<img src="http://latex.codecogs.com/gif.latex?\boldsymbol{E}_{\rm{d}}">| Incidence matrix between buses and loads.
 |<img src="http://latex.codecogs.com/gif.latex?\boldsymbol{E}">| Oriented incidence matrix of the underlying graph of the transmission network with each branch assigned arbitrary and fixed orientation.
+|<img src="http://latex.codecogs.com/gif.latex?\boldsymbol{E}_{\rm{on}}">| Incidence matrix between unswitchable branches (e.g., transformer branches) in the first-stage switching and all branches.
+|<img src="http://latex.codecogs.com/gif.latex?\bar{\boldsymbol{E}}_{\rm{on}}">| Incidence matrix between unswitchable branches in the corrective switching and all branches.
 |<img src="http://latex.codecogs.com/gif.latex?\boldsymbol{B}">| Diagonal matrix formed by susceptance of each branch
 |<img src="http://latex.codecogs.com/gif.latex?f(\cdot), g(\cdot)">| The first-stage and second-stage functions.
-|<img src="http://latex.codecogs.com/gif.latex?P, \mathcal{P}">| Probability distribution of <img src="http://latex.codecogs.com/gif.latex?\boldsymbol{o}"> and its ambiguity set.
+|<img src="http://latex.codecogs.com/gif.latex?P,\mathcal{P}">| Probability distribution of <img src="http://latex.codecogs.com/gif.latex?\boldsymbol{o}"> and its ambiguity set.
 
 
 
- 
+
 
 [1] C. Coffrin, B. Knueven, J. Holzer, and M. Vuffray, “The impacts of convex piecewise linear cost formulations on AC optimal power flow,” Electric Power Systems Research, vol. 199, p. 107191, Oct. 2021.
 
